@@ -1,0 +1,6 @@
+{
+  "name": "Visualization app",
+  "description": "A web visualization application made with Dash python",
+  "repository": "https://github.com/OrestisStefanou/dashProject",
+  "keywords": ["python", "dash", "visualization"]
+}
