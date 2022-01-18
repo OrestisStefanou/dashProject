@@ -10,6 +10,7 @@ dash-bootstrap-components = "*"
 mysql-connector-python = "*"
 mariadb = "*"
 psycopg2= "*"
+gunicorn = "*"
 
 [dev-packages]
 
