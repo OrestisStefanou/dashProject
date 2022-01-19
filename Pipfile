@@ -10,6 +10,7 @@ dash-bootstrap-components = "==1.0.2"
 mysql-connector-python = "==8.0.28"
 gunicorn = "==20.1.0"
 kaleido = "*"
+numpy = "*"
 
 [dev-packages]
 
