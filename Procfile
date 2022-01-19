@@ -1,1 +1,1 @@
-web: gunicorn main:server
+web: gunicorn app:server --host=0.0.0.0 --port=${PORT:-8050}
