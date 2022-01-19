@@ -46,7 +46,7 @@ def get_callbacks(app):
             success = False
             output_msg = str(err)
             tables_options = None
-            selected_table = None
+            selected_table = ""
             db_config = None
 
         output_msg_component = dbc.Alert(
@@ -96,7 +96,7 @@ def get_callbacks(app):
 
         # Callback function was called because user changed the selected database table
         else:
-            if table_name is None:
+            if table_name == "":
                 raise PreventUpdate
             # User selected a table from dropdown menu
             query = f"SELECT * FROM {table_name} LIMIT 1000"

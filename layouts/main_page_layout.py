@@ -13,7 +13,7 @@ def get_layout():
             dcc.Dropdown(
                 id="data_source",
                 options=[{"label": source, "value": source} for source in config.data_sources],
-                value="mariadb",
+                value=config.data_sources[0],
                 className="text-primary",
             ),
             html.Br(),
